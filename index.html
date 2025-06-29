@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thiago criativo Design</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- Background ondas -->
+  <div class="background-waves">
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+  </div>
+
+  <div class="profile">
+    <div class="profile-frame">
+      <!-- Moldura SVG animada -->
+      <svg
+        class="frame-svg"
+        width="150"
+        height="150"
+        viewBox="0 0 150 150"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="75"
+          cy="75"
+          r="72"
+          stroke="#f97316"
+          stroke-width="6"
+          stroke-linecap="round"
+          stroke-dasharray="15 20"
+        >
+          <animate
+            attributeName="stroke-dashoffset"
+            from="0"
+            to="270"
+            dur="4.5s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      </svg>
+
+      <img src="thiago.jpeg" alt="Foto de perfil" />
+    </div>
+
+    <h1>Thiago D. Pires</h1>
+    <p>Designer Gráfico | Social Media | Lumiar Design</p>
+    <p class="tagline">Criatividade com Propósito</p>
+
+    <p class="greeting" id="greeting">Olá! Seja bem-vindo(a).</p>
+  </div>
+
+  <div class="link-list">
+   
+
+    <a href="https://wa.me/5512997520625" class="link" target="_blank" id="whatsapp-link"
+      >WhatsApp
+
+    </a>
+
+    <a href="mailto:Thiagodomicianox17@gmail.com" class="link" target="_blank" id="email-link"
+      >E-mail
+     
+    </a>
+
+    <a href="https://www.instagram.com/thiago_criativo/" class="link" target="_blank"
+      >Instagram</a
+    >
+    <a href="https://www.behance.net/thiagodpires" class="link" target="_blank"
+      >Behance</a
+    >
+  </div>
+
+  <div class="footer">
+    <p>
+      Feito com <span class="heart">💙</span> por Thiago | Lumiar Design
+    </p>
+  </div>
+
+  <button id="themeToggle" aria-label="Alternar tema">🌙 Escuro</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
